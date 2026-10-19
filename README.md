@@ -13,12 +13,13 @@ O projeto reúne conceitos e práticas de SQL, PostgreSQL, modelagem dimensional
 ---
 
 ## 🎯 Objetivos do projeto
-	●	Estruturar dados de diferentes áreas do e-commerce em uma base organizada para análise.
-	●	Desenvolver um Data Warehouse com modelagem dimensional.
-	●	Integrar informações comerciais, cadastrais e operacionais.
-	●	Criar indicadores para acompanhar o desempenho do negócio.
-	●	Explorar padrões de vendas, recorrência de clientes e eficiência logística.
-	●	Traduzir os resultados das análises em insights e recomendações estratégicas.
+
+*	Estruturar dados de diferentes áreas do e-commerce em uma base organizada para análise.
+*	Desenvolver um Data Warehouse com modelagem dimensional.
+*	Integrar informações comerciais, cadastrais e operacionais.
+*	Criar indicadores para acompanhar o desempenho do negócio.
+*	Explorar padrões de vendas, recorrência de clientes e eficiência logística.
+*	Traduzir os resultados das análises em insights e recomendações estratégicas.
 
 ---
 
@@ -27,19 +28,20 @@ Uma operação de e-commerce gera dados de diferentes processos, como vendas, pe
 Quando essas informações são analisadas isoladamente, torna-se mais difícil obter uma visão integrada do negócio, acompanhar indicadores e identificar oportunidades de melhoria.
 Diante desse cenário, o projeto busca responder a perguntas relevantes para a gestão:
 
-  - 	Como evoluíram as vendas e os pedidos ao longo do período analisado?
+* 	Como evoluíram as vendas e os pedidos ao longo do período analisado?
 	
-  - 	Quais categorias de produtos apresentam maior participação no faturamento?
+*	Quais categorias de produtos apresentam maior participação no faturamento?
 	
-  - 	Qual é o comportamento de compra dos clientes?
+*	Qual é o comportamento de compra dos clientes?
 	
-  - 	Qual é a proporção de clientes que realizaram mais de um pedido?
+*	Qual é a proporção de clientes que realizaram mais de um pedido?
 	
-  - 	Como o desempenho comercial varia entre os estados brasileiros?
+*	Como o desempenho comercial varia entre os estados brasileiros?
 	
-  - 	Quais diferenças regionais existem nos indicadores logísticos?
+* 	Quais diferenças regionais existem nos indicadores logísticos?
 	
-  - 	Quais oportunidades podem contribuir para melhorar a recorrência de compra e a experiência do cliente?
+*	Quais oportunidades podem contribuir para melhorar a recorrência de compra e a experiência do cliente?
+
 A proposta é organizar os dados em uma estrutura analítica consistente e disponibilizar indicadores que facilitem a exploração dessas questões.
 
 ---
@@ -163,14 +165,16 @@ O relatório é composto por **5 páginas focadas na jornada do negócio**:
 ### 1️⃣ Visão Executiva (Executive Overview)
 * **Objetivo:** Fornecer à alta gestão uma visão rápida dos KPIs globais de desempenho (Faturamento, Pedidos, Clientes e Ticket Médio).
 * **Destaques:** Acompanhamento temporal de vendas, concentração geográfica de entregas e distribuição de status dos pedidos.
-![Visão Executiva](./caminho_da_imagem/executivo.png)
+
+![Visão Executiva](./images/executivo.png)
 
 ---
 
 ### 2️⃣ Vendas & Produtos (Sales Analytics)
 * **Objetivo:** Analisar a performance comercial por categoria e identificar o mix de produtos.
 * **Destaques:** Análise de Pareto/Matriz de faturamento, Treemap de participação por categoria e Gráfico de Dispersão (Volume Vendido vs. Faturamento).
-![Vendas](./caminho_da_imagem/vendas.png)
+
+![Vendas](./images/vendas.png)
 
 ---
 
@@ -178,12 +182,14 @@ O relatório é composto por **5 páginas focadas na jornada do negócio**:
 * **Objetivo:** Avaliar o comportamento de compra da base, distribuição geográfica e taxa de retenção.
 * **Destaques:** Segmentação de frequência de pedidos, valor médio gerado por cliente por estado e métricas de LTV/Recorrência.
 
+![Clientes e Recorrência](./images/clientes.png)
 ---
 
 ### 4️⃣ Logística & Operação (Supply Chain & Logistics)
 * **Objetivo:** Mapear a eficiência de entrega, custos de frete por estado e prazos médios por região.
 * **Destaques:** Diagnóstico de gargalos logísticos em estados críticos (ex: RR e AP) e evolução de custos operacionais.
 
+![Logística e Operação](./images/logistica.png)
 ---
 
 ### 5️⃣ Principais Descobertas da Análise
